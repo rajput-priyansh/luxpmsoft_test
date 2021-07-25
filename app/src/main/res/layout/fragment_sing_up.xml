@@ -31,6 +31,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilName"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -38,7 +39,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_05"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -49,8 +49,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:lines="1"
                     android:imeOptions="actionNext"
+                    android:lines="1"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -60,6 +60,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilMobileNumber"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -67,7 +68,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_06"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -78,8 +78,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:lines="1"
                     android:imeOptions="actionNext"
+                    android:lines="1"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -88,6 +88,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilDob"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -95,7 +96,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_07"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -106,8 +106,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:lines="1"
                     android:imeOptions="actionNext"
+                    android:lines="1"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -116,6 +116,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilEmail"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -123,7 +124,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_07"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -134,8 +134,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
-                    android:lines="1"
                     android:imeOptions="actionNext"
+                    android:lines="1"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -144,6 +144,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilPassword"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -151,7 +152,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_09"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -162,9 +162,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
+                    android:imeOptions="actionNext"
                     android:inputType="textPassword"
                     android:lines="1"
-                    android:imeOptions="actionNext"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -173,6 +173,7 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/tilConfirmPassword"
+                style="@style/TextInputLayoutAppearance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_16sdp"
@@ -180,7 +181,6 @@
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:background="@android:color/transparent"
                 android:hint="@string/key_10"
-                style="@style/TextInputLayoutAppearance"
                 app:boxBackgroundColor="@android:color/transparent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -191,9 +191,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto_regular"
+                    android:imeOptions="actionDone"
                     android:inputType="textPassword"
                     android:lines="1"
-                    android:imeOptions="actionDone"
                     android:singleLine="true"
                     android:textColor="@color/edit_text"
                     android:textSize="@dimen/_10ssp" />
@@ -205,133 +205,133 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                app:layout_constraintGuide_percent="0.5"/>
+                app:layout_constraintGuide_percent="0.5" />
 
             <TextView
                 android:id="@+id/tvValidationTwo"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/tilConfirmPassword"
                 android:layout_marginTop="@dimen/_16sdp"
-                android:textColor="@color/edit_text"
-                android:textSize="@dimen/_8ssp"
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:drawablePadding="@dimen/_12sdp"
                 android:gravity="center_vertical"
                 android:text="@string/key_11"
-                app:drawableStartCompat="@drawable/ic_unselected" />
+                android:textColor="@color/edit_text"
+                android:textSize="@dimen/_8ssp"
+                app:drawableStartCompat="@drawable/ic_unselected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/tilConfirmPassword" />
 
             <TextView
                 android:id="@+id/tvValidationOne"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintEnd_toStartOf="@+id/guideline"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tilConfirmPassword"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:textColor="@color/edit_text"
-                android:textSize="@dimen/_8ssp"
                 android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
                 android:drawablePadding="@dimen/_12sdp"
                 android:gravity="center_vertical"
                 android:text="@string/key_12"
-                app:drawableStartCompat="@drawable/ic_unselected" />
+                android:textColor="@color/edit_text"
+                android:textSize="@dimen/_8ssp"
+                app:drawableStartCompat="@drawable/ic_unselected"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tilConfirmPassword" />
 
             <androidx.constraintlayout.widget.Barrier
                 android:id="@+id/barrierTopValidation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:constraint_referenced_ids="tvValidationOne, tvValidationTwo"
-                app:barrierDirection="bottom"/>
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="tvValidationOne, tvValidationTwo" />
 
 
             <TextView
                 android:id="@+id/tvValidationThree"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/guideline"
-                app:layout_constraintTop_toBottomOf="@+id/barrierTopValidation"
                 android:layout_marginTop="@dimen/_16sdp"
-                android:textColor="@color/edit_text"
-                android:textSize="@dimen/_8ssp"
                 android:layout_marginEnd="@dimen/_16sdp"
                 android:drawablePadding="@dimen/_12sdp"
                 android:gravity="center_vertical"
                 android:text="@string/key_13"
-                app:drawableStartCompat="@drawable/ic_unselected" />
+                android:textColor="@color/edit_text"
+                android:textSize="@dimen/_8ssp"
+                app:drawableStartCompat="@drawable/ic_unselected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/barrierTopValidation" />
 
             <TextView
                 android:id="@+id/tvValidationFour"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                app:layout_constraintEnd_toStartOf="@+id/guideline"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/barrierTopValidation"
-                android:layout_marginTop="@dimen/_16sdp"
-                android:textColor="@color/edit_text"
-                android:textSize="@dimen/_8ssp"
                 android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
                 android:drawablePadding="@dimen/_12sdp"
                 android:gravity="center_vertical"
                 android:text="@string/key_14"
-                app:drawableStartCompat="@drawable/ic_unselected" />
+                android:textColor="@color/edit_text"
+                android:textSize="@dimen/_8ssp"
+                app:drawableStartCompat="@drawable/ic_unselected"
+                app:layout_constraintEnd_toStartOf="@+id/guideline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/barrierTopValidation" />
 
             <androidx.constraintlayout.widget.Barrier
                 android:id="@+id/barrierBottomValidation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:constraint_referenced_ids="tvValidationThree, tvValidationFour"
-                app:barrierDirection="bottom"/>
+                app:barrierDirection="bottom"
+                app:constraint_referenced_ids="tvValidationThree, tvValidationFour" />
 
             <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/chkTerm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/_8ssp"
-                android:fontFamily="@font/roboto_regular"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/barrierBottomValidation"
                 android:layout_marginTop="@dimen/_24sdp"
+                android:button="@drawable/check_box_bg"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingStart="@dimen/_12sdp"
                 android:text="@string/key_15"
                 android:textColor="@color/edit_text"
-                android:button="@drawable/check_box_bg"
-                android:paddingStart="@dimen/_12sdp" />
+                android:textSize="@dimen/_8ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/barrierBottomValidation" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_16sdp"
                 android:layout_marginEnd="@dimen/_24sdp"
                 android:background="@drawable/button_bg"
                 android:fontFamily="@font/roboto_regular"
-                android:layout_marginTop="@dimen/_16sdp"
                 android:text="@string/key_02"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_14ssp"
-                app:layout_constraintTop_toBottomOf="@+id/chkTerm"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chkTerm" />
 
             <TextView
                 android:id="@+id/tvAlreadyAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
                 android:layout_marginBottom="@dimen/_16sdp"
-                android:paddingEnd="@dimen/_12sdp"
                 android:paddingStart="@dimen/_12sdp"
                 android:paddingTop="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_12sdp"
                 android:paddingBottom="@dimen/_8sdp"
-                android:layout_marginTop="@dimen/_8sdp"
                 android:text="@string/key_16"
                 android:textSize="@dimen/_12sdp"
-                app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

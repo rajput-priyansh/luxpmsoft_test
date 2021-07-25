@@ -20,9 +20,9 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@+id/ivTopLogo"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTopLogo"
         app:navGraph="@navigation/lux_pm_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
