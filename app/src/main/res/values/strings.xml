@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">LuxPM Test</string>
+    <string name="key_01">Stay on the top of your finance</string>
+    <string name="key_02">가입하기</string>
+    <string name="key_03">로그인</string>
+    <string name="key_04">회원가입</string>
+    <string name="key_05">이름</string>
+    <string name="key_06">휴대폰 번호</string>
+    <string name="key_07">생년월일</string>
+    <string name="key_08">이메일</string>
+    <string name="key_09">비밀번호</string>
+    <string name="key_10">비밀번호 확인</string>
+    <string name="key_11">최소 하나의 대문자</string>
+    <string name="key_12">최소 8자 이상</string>
+    <string name="key_13">최소 하나의 숫자</string>
+    <string name="key_14">최소 하나의 특수문자</string>
+    <string name="key_15">이용약관에 동의합니다</string>
+    <string name="key_16">이미 계정이 있으신가요? 로그인</string>
+    <string name="key_17">올바른 이메일 형식을 제공하세요.</string>
+    <string name="key_18">비밀번호와 비밀번호 확인이 일치하지 않습니다</string>
+    <string name="key_19">비밀번호 찾기</string>
+    <string name="key_20">계정이 없으신가요? 가입하기</string>
+    <string name="key_21">로그인</string>
+    <string name="key_22">이메일과 비밀번호는 비워둘 수 없습니다</string>
+    <string name="key_23">로그인 자격 증명이 잘못되었습니다</string>
+    <string name="key_24">환영하다</string>
+</resources>
